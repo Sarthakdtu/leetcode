@@ -16,7 +16,7 @@ public:
         dp[0] = 0;
         dp[1] = 1;
         int p = 2;
-        map<int, int> po;
+        unordered_map<int, int> po;
         for(int i=2;i<=n;i*=2){
             po[i] = 1;
         }
