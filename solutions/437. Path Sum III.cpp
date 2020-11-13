@@ -11,33 +11,29 @@
  */
 class Solution {
 public:
-    void ps(TreeNode* root, int sum, vector<int> &path, int &ans){
+    void ps(TreeNode* root, int sum, unordered_map<int, int> &path, int &ans, int k){
         if(!root)
             return ;
         
-        path.push_back(root->val);
         
-        int s = 0;
-        for(int i=path.size()-1;i>-1;i--){
-            s += path[i];
-            if(s == sum){
-                ans++;
-            }
-        }
-        ps(root->right, sum, path, ans);
-        ps(root->left, sum, path, ans);
-        path.pop_back();
+        if(k + root->val == sum )
+            ans++;
+       
+        ans += path[ k + root->val - sum];
         
-        
+        path[root->val + k]++;
+        ps(root->right, sum, path, ans, k+root->val);
+        ps(root->left, sum, path, ans, k+root->val);
+        path[root->val + k]--;   
         
         
     }
     
     int pathSum(TreeNode* root, int sum) {
-        vector<int> path;
+        unordered_map<int, int> path;
         
         int ans = 0;
-        ps(root, sum, path, ans);
+        ps(root, sum, path, ans, 0);
         return ans;
     }
 };
