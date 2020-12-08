@@ -1,0 +1,44 @@
+class Solution {
+public:
+    
+    bool bfs(int source, vector<vector<int>> &graph, int colour[]){
+        colour[source] = 0;
+        queue<int> q;
+        q.push(source);
+    
+        while(!q.empty()){
+            int curr = q.front();
+            q.pop();
+            for(int i=0;i<graph[curr].size();i++){
+                int v = graph[curr][i];
+                if(colour[v]==-1){
+                    colour[v] = colour[curr] == 1?0:1;
+                    q.push(v);
+                }
+                else{
+                    if(colour[v] == colour[curr])
+                        return false;
+                }
+            }
+            
+        }
+        
+        return true;
+    }
+    
+    bool isBipartite(vector<vector<int>>& graph) {
+        int v = graph.size();
+        int colour[v];
+        memset(colour, -1, sizeof(colour));
+        
+        
+        for(int i=0;i<v;i++){
+            if(colour[i] == -1){
+                if(!bfs(i, graph, colour))
+                    return false;
+            }
+        }
+        
+        return true;
+    }
+};
