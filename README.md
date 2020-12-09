@@ -16,6 +16,7 @@
 |437|[ Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](./solutions/437.%20Path%20Sum%20III.cpp)|24 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./solutions/543.%20Diameter%20of%20Binary%20Tree.cpp)|8 ms|
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./solutions/785.%20Is%20Graph%20Bipartite%3F.cpp)|44 ms|
+|815|[ Bus Routes](https://leetcode.com/problems/bus-routes/)|[C++](./solutions/815.%20Bus%20Routes.cpp)|284 ms|
 |1025|[ Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./solutions/1025.%20Divisor%20Game.cpp)|0 ms|
 |1277|[ Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|[C++](./solutions/1277.%20Count%20Square%20Submatrices%20with%20All%20Ones.cpp)|116 ms|
 |1314|[ Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[C++](./solutions/1314.%20Matrix%20Block%20Sum.cpp)|12 ms|
