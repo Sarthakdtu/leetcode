@@ -1,6 +1,5 @@
 class Solution {
 public:
-    //https://leetcode.com/problems/number-of-enclaves/
 ​
 void dfs(int r, int c, vector<vector<int>>& arr, int n, int m){
     arr[r][c] = 0;
