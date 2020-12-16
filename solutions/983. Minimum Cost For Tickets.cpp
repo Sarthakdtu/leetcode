@@ -4,15 +4,15 @@ public:
         vector<int> dp(367);
          int n = arr.size();
         dp[366] = 0;
-        map<int, int> pres;
+        unordered_map<int, int> pres;
         for(int i = 0;i<n;i++)
             pres[arr[i]] = 1;
        
-        // dp[arr[n-1]] = min(cost[0], min(cost[1], cost[2]));
+       
         for(int i=365;i>-1;i--){
             dp[i] = dp[i+1];
             if(pres[i]==1){
-                // cout<<"Going for "<<i<<" selecting ";
+               
                 dp[i] = min(
                     dp[i+1] + cost[0],
                     min(
@@ -20,8 +20,8 @@ public:
                         dp[min(i+30, 366)] + cost[2]
                     )
                 );
-                // cout<<dp[i]<<endl;
-            }
+                
+            }
 //             dp[arr[i]] = cost[0] + dp[arr[i+1]];
 //             int j;
 //             for(j=i+1;j<n;j++)
