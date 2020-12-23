@@ -1,3 +1,4 @@
+class Solution {
 public:
     int find(int x, int parent[]){
         if(x == parent[x])
@@ -54,35 +55,3 @@ public:
             cn1 = r*(n+1) + c;
             cn2 = r*(n+1) + c + 1;
             merge(cn1, cn2, parent, rank, regions);
-            
-            r = n;
-            c = i;
-            cn1 = r*(n+1) + c;
-            cn2 = r*(n+1) + c + 1;
-            merge(cn1, cn2, parent, rank, regions);
-            
-            r = i;
-            c = 0;
-            cn1 = r*(n+1) + c;
-            cn2 = (r+1)*(n+1) + c;
-            merge(cn1, cn2, parent, rank, regions);
-            
-            r = i;
-            c = n;
-            cn1 = r*(n+1) + c;
-            cn2 = (r+1)*(n+1) + c ;
-            merge(cn1, cn2, parent, rank, regions);
-        }
-        // cout<<"Borders done"<<endl;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(arr[i][j] == '/'){
-                    r = i;
-                    c = j+1;
-                    cn1 = r*(n+1) + c;
-                    r = i+1;
-                    c = j;
-                    cn2 = r*(n+1) + c;
-                    merge(cn1, cn2, parent, rank, regions);
-                }
-                else if(arr[i][j] == '\\'){
