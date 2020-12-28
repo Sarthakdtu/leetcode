@@ -45,10 +45,3 @@ vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
     //case 3 : a cycle and 2 parents
 ​
     //Calculate Indegree
-    for(int i=0;i<v;i++){
-        s = --edges[i][0];
-        d = --edges[i][1];
-        if(indegree[d]==-1)
-            indegree[d] = s;
-        else{
-            two_parents = true;
