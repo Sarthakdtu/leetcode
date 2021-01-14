@@ -12,6 +12,7 @@
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp)|12 ms|
 |123|[ Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](./solutions/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.cpp)|320 ms|
 |127|[ Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./solutions/127.%20Word%20Ladder.cpp)|1804 ms|
+|144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cpp)|0 ms|
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[C++](./solutions/146.%20LRU%20Cache.cpp)|180 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[C++](./solutions/198.%20House%20Robber.cpp)|0 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[C++](./solutions/200.%20Number%20of%20Islands.cpp)|24 ms|
