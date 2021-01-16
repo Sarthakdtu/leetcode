@@ -29,6 +29,7 @@
 |437|[ Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](./solutions/437.%20Path%20Sum%20III.cpp)|24 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[C++](./solutions/542.%2001%20Matrix.cpp)|196 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./solutions/543.%20Diameter%20of%20Binary%20Tree.cpp)|8 ms|
+|560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./solutions/560.%20Subarray%20Sum%20Equals%20K.cpp)|120 ms|
 |684|[ Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./solutions/684.%20Redundant%20Connection.cpp)|4 ms|
 |685|[ Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./solutions/685.%20Redundant%20Connection%20II.cpp)|16 ms|
 |746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.cpp)|12 ms|
