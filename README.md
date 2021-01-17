@@ -41,6 +41,7 @@
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[C++](./solutions/931.%20Minimum%20Falling%20Path%20Sum.cpp)|20 ms|
 |934|[ Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[C++](./solutions/934.%20Shortest%20Bridge.cpp)|140 ms|
 |959|[ Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[C++](./solutions/959.%20Regions%20Cut%20By%20Slashes.cpp)|4 ms|
+|973|[ K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[C++](./solutions/973.%20K%20Closest%20Points%20to%20Origin.cpp)|168 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|48 ms|
 |983|[ Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[C++](./solutions/983.%20Minimum%20Cost%20For%20Tickets.cpp)|16 ms|
 |1020|[ Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[C++](./solutions/1020.%20Number%20of%20Enclaves.cpp)|104 ms|
